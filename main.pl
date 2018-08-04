@@ -7,6 +7,6 @@ print($tmp);
 
 sub tmp{
     my $system = "i'm a dog\r\ni'm a cat\r\nI'm a doctor";
-    my $tmp2 = $system;
+    my $tmp2 = $system." test test";
     return $tmp2;
 }
