@@ -7,6 +7,9 @@ print($tmp);
 
 sub tmp{
     my $system = "i'm a dog\r\ni'm a cat\r\nI'm a doctor";
-    my $tmp2 = $system." test test";
+    my $tmp2 = $system." test test".tmp_sub();
     return $tmp2;
+}
+sub tmp_sub{
+    return "1";
 }
